@@ -86,8 +86,6 @@ task createDist(type: CreateDistTask, dependsOn: proguard) {
     compType "fabric"
 }
 
-build.finalizedBy(createDist)
-
 publishing {
     publications {
         mavenFabric(MavenPublication) {
