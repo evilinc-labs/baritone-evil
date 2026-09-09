@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "baritone",
+  "id": "baritone-evil",
   "version": "${version}",
 
-  "name": "Baritone",
-  "description": "Google Maps for Blockgame",
+  "name": "Baritone (Evil)",
+  "description": "Deobfuscated releases, fixed for Evil Inc.",
   "authors": [
-    "leijurv", "Brady"
+    "leijurv", "Brady", "evilinc-labs"
   ],
   "contact": {
     "homepage": "https://github.com/cabaletta/baritone",
@@ -26,6 +26,9 @@
   "depends": {
     "fabricloader": ">=0.19.3",
     "minecraft": ["26.2"]
+  },
+  "breaks": {
+    "baritone": "*"
   },
   "custom": {
     "modmenu": {
